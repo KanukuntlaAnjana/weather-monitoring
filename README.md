@@ -10,3 +10,4 @@ A Python-based application to monitor weather data from various cities and displ
 
 ## Usage
 1. Clone the repository:
+2.[Uploading weather-monitoring_vscode.htm…]()
