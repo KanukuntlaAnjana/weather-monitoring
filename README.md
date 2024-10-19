@@ -101,11 +101,13 @@ Ensure Docker and Docker Compose are installed on your system. Follow the steps 
 - Copy code
 - python -m unittest discover
 ## **Known Issues**
--The application currently fetches data for a limited number of cities. Future improvements will include the ability to add more cities dynamically.
-Alerts are limited to basic weather conditions. Expanding alert types is planned.
+- The application currently fetches data for a limited number of cities. 
+- Future improvements will include the ability to add more cities dynamically.
+- Alerts are limited to basic weather conditions. Expanding alert types is planned.
 ## **Future Enhancements**
-**Dynamic City Addition**: Add cities dynamically without modifying the code.
-**Web Interface**: A simple web interface to display weather data and graphs.
-**Enhanced Alerts**: More detailed and customizable alerts.
-**Author**
+- **Dynamic City Addition**: Add cities dynamically without modifying the code.
+- **Web Interface**: A simple web interface to display weather data and graphs.
+- **Enhanced Alerts**: More detailed and customizable alerts.
+## **Author**
 Kanukuntla Anjana
+https://github.com/KanukuntlaAnjana/weather-monitoring
