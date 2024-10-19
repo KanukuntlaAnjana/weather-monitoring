@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  weather-app:
+    build: .
+    container_name: weather-monitor
+    environment:
+      - API_KEY=63c16f81c13c3f8be6795b421febc5dc
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: weatherdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
